@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="absolute inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:6rem_4rem]">
+        <div class="absolute w-full bottom-0 left-0 right-0 top-0 bg-[radial-gradient(circle_500px_at_50%_200px,#C9EBFF,transparent)]">
+
+           <div class="p-10 flex flex-col w-full">
+             <h1 class="text-center font-semibold text-3xl ">To Do List APP</h1>
+             <div class="mx-auto">
+                <input type="text" id="addtaskip" class=" w-80   mt-10 p-2 focus:ring-2 focus:outline-none focus:ring-blue-500 rounded-md " name="" id="" placeholder="Type Here Task">
+                <button id="addtaskbtn" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br   font-bold rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Add Task </button>
+             </div>
+             
+           </div>
+
+           <div id="tasklist" class="cnt flex justify-center mx-auto w-[70%] mt-10 pb-12  mt-10 flex flex-col ">
+                
+           </div>
+
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
